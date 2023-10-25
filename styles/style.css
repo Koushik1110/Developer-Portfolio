@@ -4,7 +4,7 @@
 }
 .header{
     background-color:#FFF8F3;
-    background-image: url('/images/header_bg.png'),url(/images/developer.png);
+    background-image: url('../images/header_bg.png'),url('../images/developer.png');
     background-repeat: no-repeat;
     background-position: right bottom, left;
 }
@@ -25,10 +25,12 @@
     height: 64px;
     color: #FD6E0A;
     border-color: #FD6E0A;
+    background-color: transparent;
     font-size: 20px;
     font-weight: 700;
-    padding: 20px 24px;
+    padding: 0 20px 0 24px;
     text-align: center;
+    border-radius: 5px;
 }
 .header-nav{
     font-size: 45px;
