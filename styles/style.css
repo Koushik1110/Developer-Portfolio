@@ -32,6 +32,9 @@
     text-align: center;
     border-radius: 5px;
 }
+.icon-gap{
+    margin-right: 10px;
+}
 .header-nav{
     font-size: 45px;
     font-weight: 800; 
@@ -69,6 +72,7 @@ nav li{
 .banner-paragraph{
     font-size: 18px;
     margin-bottom: 30px;
+    color: #757575;
 }
 /* About Section Style*/
 
@@ -94,17 +98,131 @@ nav li{
     color: #757575;
     padding: 30px 100px 0 100px;
     text-align: center;
+    font-size: 20px;
 }
 .about-info{
     display: flex;
-    gap: 50px;
+    justify-content: space-between;
     text-align: center;
     padding:0px 300px 0px 300px;
 }
-/* Resume section Style*/
+/* What I do section Style*/
 
-.Resume-title{
-text-align: center;
-padding: 150px 300px 150px 300px;
-font-size: 35px;
+.what-i-do-heading{
+    text-align: center;
+    font-size: 35px;
+    margin-bottom: 30px;
+}
+.what-i-do-description{
+    color: #757575;
+    font-size: 18px;
+    text-align: center;
+    margin: 0 345px 50px 345px;
+}
+.What-i-do-card{
+margin: 50px 230px 130px 230px; 
+display: flex;
+
+}
+.card-info{
+    padding: 30px;
+    border-radius: 10px;
+    width: 200px;
+    height: 350px;
+    flex-shrink: 0;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+    gap: 24px;
+}   
+.card-heading{
+    font-size: 20px;
+    font-weight: 700;
+    margin: 30px 0 20px 0;
+}
+.card-paragraph{
+    color: #757575;
+    font-size: 16px;
+}
+.card-images{
+    margin-top: 30px;
+}
+/* A summary of My Resume section*/
+.educational-summary{
+    display: flex;
+    margin: 0 230px 0 230px;
+    gap: 70px;
+}
+
+.education{
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: 30px;
+    
+}
+.educational-qualification{
+    font-size: 25px;
+    font-weight: 700;
+    margin-bottom: 10px;
+    margin-top: 30px;
+}
+.years{
+    font-size: 20px;
+    font-weight: 600;
+    color: #757575;
+    margin-bottom: 20px;
+}
+.education-description{
+    color: #757575;
+    margin-bottom: 30px;
+}
+.horizontal{
+    color: #D1D1D1;
+}
+.download-cv{
+    justify-content: center;
+    display: flex;
+    margin-top: 70px;
+    margin-bottom: 110px;
+}
+/*Footer section*/
+.footer-section{
+    background: #FFF8F3;
+    padding: 130px 230px 130px 230px;
+    display: flex;
+}
+.footer-heading{
+    margin-bottom: 20px;
+    font-size: 35px;
+    font-weight: 700;
+}
+.footer-description{
+margin-right: 110px;
+margin-bottom: 30px;
+
+}
+.icon{
+    display: flex;
+    gap: 24px;
+}
+input[type=text]{
+    border: none;
+    margin-bottom: 20px;
+    padding-left: 20px;
+    width: 460px;
+    height: 64px;
+    border-radius: 5px;
+}
+input[type=email]{
+    border: none;
+    margin-bottom: 20px;
+    padding-left: 20px;
+    width: 460px;
+    height: 64px;
+    border-radius: 5px;
+}
+textarea{
+    width: 460px;
+    height: 180px;
+    border-radius: 5px;
+    resize: none;
+    margin-bottom: 20px;
 }
